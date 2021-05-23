@@ -1,0 +1,19 @@
+server:
+  port: 9192
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+  application:
+    name: ORDER-SERVICE
+
+logging:
+  charset:
+    file: /Users/vagrawal/Desktop/Tutorial-Projects/microservices.log
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
